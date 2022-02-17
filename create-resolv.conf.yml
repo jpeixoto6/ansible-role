@@ -1,0 +1,6 @@
+---
+
+- name: Create resolv.conf file in managed hosts
+  hosts: nodes
+  roles:
+    - role: resolv.conf

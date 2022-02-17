@@ -1,0 +1,7 @@
+---
+# handlers file for resolv-conf
+
+- name: reload NetworkManager
+  service:
+    name: NetworkManager
+    state: reloaded
